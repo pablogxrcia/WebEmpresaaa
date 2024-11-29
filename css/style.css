@@ -1,0 +1,89 @@
+body {
+  display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el body ocupe al menos el 100% de la altura de la ventana */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+
+  .main-content {
+    flex: 1; /* Permite que el contenido principal ocupe el espacio disponible */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav-menu ul li a.active {
+    color: #007B70;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #EAF5F4;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero .btn {
+    background-color: #007B70;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    background-color: #fff;
+  }
+  
+  .feature {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #007B70;
+    padding: 1rem 0; /* Espaciado vertical del footer */
+    position: relative; /* Asegura que el footer esté en el flujo normal del documento */
+    bottom: 0; /* Alinea el footer al fondo */
+    width: 100%; /* Asegura que el footer ocupe todo el ancho de la página */
+  }

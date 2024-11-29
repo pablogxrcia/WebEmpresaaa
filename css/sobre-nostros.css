@@ -1,0 +1,178 @@
+/* Body Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007B70;
+    padding: 1rem 2rem;
+    color: #fff;
+}
+
+.header .logo img {
+    height: 50px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-menu ul li a:hover,
+.nav-menu ul li a.active {
+    color: #ffdd59;
+}
+
+/* Hero Section */
+.hero-about {
+    background: linear-gradient(to right, #007B70, #005F55);
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.hero-about h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero-about p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+/* Mission and Vision Section */
+.mission-vision {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 3rem 2rem;
+    background-color: #fff;
+}
+
+.card {
+    background: #EAF5F4;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(50% - 2rem);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    color: #007B70;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Team Section */
+.team-section {
+    padding: 3rem 2rem;
+    background: linear-gradient(to left, #EAF5F4, #f8f9fa);
+    text-align: center;
+}
+
+.team-section h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #007B70;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.team-member {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.team-member img:hover {
+    transform: scale(1.1);
+}
+
+.team-member h3 {
+    color: #005F55;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+.footer {
+    background: #007B70;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+/* Estilo para el botón que usa el estilo de los botones de la página */
+.btn-secondary {
+    display: inline-block;
+    background-color: #EAF5F4; /* Color de fondo que puede ser similar a los botones */
+    color: #007B70; /* Color del texto, que coincide con el estilo general */
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid #007B70; /* Borde del botón con el color principal */
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #007B70; /* Color de fondo cuando se pasa el ratón */
+    color: #fff; /* Cambiar el color del texto cuando se pasa el ratón */
+}
+
