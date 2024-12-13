@@ -85,5 +85,68 @@ body {
     padding: 1rem 0; /* Espaciado vertical del footer */
     position: relative; /* Asegura que el footer esté en el flujo normal del documento */
     bottom: 0; /* Alinea el footer al fondo */
-    width: 100%; /* Asegura que el footer ocupe todo el ancho de la página */
+    width: 100%; /* Asegura que el footer ocupe todo el ancho de la página */
   }
+
+  /* Estilos generales para la nueva sección */
+.culture-policy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff; /* Fondo claro para diferenciar */
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.culture-policy .content {
+  width: 60%;
+}
+
+.culture-policy .content h2 {
+  font-size: 2rem;
+  color: #007B70; /* Verde azulado */
+  margin-bottom: 1rem;
+}
+
+.culture-policy .content p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.culture-policy .content .btn-secondary {
+  background-color: #007B70;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.culture-policy .content .btn-secondary:hover {
+  background-color: #005A55; /* Verde azulado más oscuro para el hover */
+}
+
+.culture-policy .image {
+  width: 35%;
+  text-align: center;
+}
+
+.culture-policy .image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos específicos del menú para destacar la nueva pestaña */
+.nav-menu ul li a[href="cultura-y-politica.html"] {
+  font-weight: bold;
+  color: #007B70;
+}
+
+.nav-menu ul li a[href="cultura-y-politica.html"]:hover {
+  text-decoration: underline;
+}
