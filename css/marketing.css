@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007B70;
+    padding: 1rem 2rem;
+    color: #fff;
+}
+
+.header .logo img {
+    height: 50px;
+}
+
+.main-content {
+    padding: 2rem;
+}
+
+.marketing {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.marketing .content h2 {
+    color: #007B70;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.marketing .content p {
+    font-size: 1.2rem;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.marketing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #007B70;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #007B70;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
